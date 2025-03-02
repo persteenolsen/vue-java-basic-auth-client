@@ -15,7 +15,8 @@ export const useAuthStore = defineStore({
         async login(username, password) {
             const user = await fetchWrapper.post(`${baseUrl}/auth`, { username, password });
 
-            // update pinia state with user object + basic auth data
+            // Update pinia state with user object + base-64 encoded basic auth data
+            // Note: Credentials will be encoded in base-64 by the statement below and sent in the Autorization header to the API
             user.authdata = window.btoa(username + ':' + password);
             this.user = user;
 

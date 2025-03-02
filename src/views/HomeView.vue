@@ -15,7 +15,7 @@ usersStore.getAll();
 <template>
     <div>
         <h1>Hi {{authUser?.userName}}!</h1>
-        <p>You're logged in with Vue 3 + Pinia & Basic HTTP Authentication!!</p>
+        <p>You're logged in with Vue 3 + Pinia & Basic Authentication!!</p>
         <h3>Users from secure api end point:</h3>
         <ul v-if="users.length">
             <li v-for="user in users" :key="user.id">{{user.firstName}} {{user.lastName}}</li>

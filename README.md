@@ -1,10 +1,10 @@
 # vue-3-pinia-basic-auth
 
-Vue 3 + Pinia + Vite - Basic HTTP Authentication
+Vue 3 + Pinia + Vite - HTTP Basic Authentication
 
 # Last updated:
 
-- 28-02-2025
+- 02-03-2025
 
 # Tech used for this Web Client
 
