@@ -23,7 +23,7 @@ function onSubmit(values, { setErrors }) {
         <h3>Vue 3 SPA + Java Spring Boot 3 Web API doing Basic Authentication</h3>
         <br />Note: Due to the Free Azure App Service Plan, the Login process may take up to 1 minute:-)
         <br/><br />
-        Last updated: 30-09-2025<br /><br />
+        Last updated: 05-01-2026<br /><br />
 
         <div class="alert alert-info">
                 
