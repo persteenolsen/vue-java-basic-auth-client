@@ -4,7 +4,7 @@ Vue 3 + Pinia + Vite - HTTP Basic Authentication
 
 # Last updated:
 
-- 05-01-2026
+- 09-02-2026
 
 # Tech used for this Web Client
 
